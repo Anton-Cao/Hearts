@@ -1,5 +1,8 @@
 #include <iostream>
 #include <string>
+#define NUM_CARDS 13
+#define NUM_SUITS 4
+#define NUM_PLAYERS 4
 
 using namespace std;
 
