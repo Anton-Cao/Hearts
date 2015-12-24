@@ -21,11 +21,11 @@ class Player;
 class Player{
 private:
 	std::string name;
-	int numCards;
 	std::vector<card> cards;
 public:
 	Player(std::string);
 	std::string getName();
+	bool playCard(int, char);
 	std::vector<card> getCards();
 	int getNumCards();
 	void setName(std::string);
