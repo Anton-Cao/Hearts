@@ -12,8 +12,6 @@ struct card{
 	char suit;
 };
 
-class Player;
-
 /*
  * The player
  * Controlled by user or CPU
@@ -25,10 +23,10 @@ private:
 public:
 	Player(std::string);
 	std::string getName();
-	bool playCard(int, char);
 	std::vector<card> getCards();
 	int getNumCards();
 	void setName(std::string);
 	void addCard(int, char);
+	card playCard(int);
 };
 #endif
